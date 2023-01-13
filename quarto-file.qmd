@@ -1,0 +1,22 @@
+---
+title: "Quarto screenshot example"
+format: html
+editor: visual
+---
+
+## Quarto
+
+This is where to type text.
+
+```{r}
+# here is annotation in green followed by code
+plot(palmerpenguins::penguins$species)
+```
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+: Example of inserting a table
